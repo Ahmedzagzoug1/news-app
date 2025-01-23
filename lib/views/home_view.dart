@@ -5,16 +5,16 @@ import '../widgets/news_list_view_builder.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
+  static const id = '/home';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-       centerTitle: true,
+        centerTitle: true,
         elevation: 0,
         backgroundColor: Colors.transparent,
         title: const Row(
-          
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
